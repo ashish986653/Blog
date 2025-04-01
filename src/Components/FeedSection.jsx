@@ -1,6 +1,6 @@
 import React from "react";
 import ballImage from "../assets/photo.webp";
-import CarImage from "../assets/CarImage.webp";
+import CarImage from "../assets/carImage.webp";
 import SkeatingBoard from "../assets/SkeatingBoard.webp";
 import Helmate from "../assets/Helmate.webp";
 import { NavLink } from "react-router";
@@ -36,8 +36,8 @@ export default function FeedSection() {
 
       {/* second */}
       <div className="bg-white shadow-md border-gray-50 rounded-2xl mt-8 p-4 group">
-        <div className="flex gap-6">
-          <img src={CarImage} className="h-40 w-40 rounded-2xl" alt="" />
+        <div className="md:flex gap-6 space-y-4">
+          <img src={CarImage} className="h-40 w-full md:w-40 object-cover rounded-2xl" alt="" />
           <div>
             <h1 className="text-2xl font-medium mb-3  group-hover:text-pink-500 duration-500 border-b-3 border-white group-hover:border-pink-500 cursor-pointer">
               Healthy Cooking Made Easy With Nutritious Recipes
@@ -61,8 +61,8 @@ export default function FeedSection() {
 
       {/* Third */}
       <div className="bg-white shadow-md border-gray-50 rounded-2xl mt-8 p-4">
-        <div className="flex gap-6">
-          <img src={SkeatingBoard} className="h-40 w-40 rounded-2xl" alt="" />
+        <div className="md:flex gap-6 space-y-4">
+          <img src={SkeatingBoard} className="h-40 w-full md:w-40 object-cover rounded-2xl" alt="" />
           <div>
             <h1 className="text-2xl font-medium mb-3">
               Shaping Tomorrow’s Landscape Of Intelligent Machines
@@ -86,8 +86,8 @@ export default function FeedSection() {
 
       {/* Fourth */}
       <div className="bg-white shadow-md border-gray-50 rounded-2xl mt-8 p-4">
-        <div className="flex gap-6">
-          <img src={Helmate} className="h-40 w-40 rounded-2xl" alt="" />
+        <div className="md:flex gap-6 space-y-4">
+          <img src={Helmate} className="h-40 w-full md:w-40 object-cover rounded-2xl" alt="" />
           <div>
             <h1 className="text-2xl font-medium mb-3">
               Hidden Ways To Save Money That You Might Be Missing

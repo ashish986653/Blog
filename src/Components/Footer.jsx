@@ -8,7 +8,7 @@ import { GoDotFill } from "react-icons/go";
 export default function Footer() {
   return (
     <div className="bg-gray-100">
-      <div className="flex justify-between items-center w-11/12 mx-auto mt-15 mb-5">
+      <div className="md:flex justify-between items-center w-11/12 mx-auto mt-15 mb-5 space-y-4">
         {/* Syron */}
         <div>
           <h1 className="font-semibold text-3xl py-3">Syron</h1>
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between w-11/12 mx-auto border-t border-gray-400 mt-15 py-10 opacity-85">
+      <div className="md:flex justify-between w-11/12 mx-auto border-t border-gray-400 mt-15 py-10 opacity-85 space-y-6">
         <p>
           This website may collect data about you, use cookies, embed additional
           third-party tracking, and <br />
